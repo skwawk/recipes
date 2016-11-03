@@ -10,8 +10,15 @@ chocCake = {
 	"3: Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. Cool in the pans " + 
 	"for 10 minutes, then remove to a wire rack to cool completely."
 };
+chocFrost = {
+	name: "chocolate frosting",
+	ingredients: "2 3/4 cups confectioners' sugar\n6 tablespoons unsweetened cocoa powder\n6 tablespoons butter\n" +
+ 	"5 tablespoons evaporated milk\n1 teaspoon vanilla extract",
+	steps: "1: In a medium bowl, sift together the confectioners' sugar and cocoa, and set aside./n" + 
+	"2: In a large bowl, cream butter until smooth, then gradually beat in sugar mixture alternately with evaporated " +
+	"milk. Blend in vanilla. Beat until light and fluffy. If necessary, adjust consistency with more milk or sugar."
 
-var recipes = [chocCake];
+var recipes = [chocCake, chocFrost];
 var bookLength = recipes.length;
 
 function printRecipe(recipe) {
