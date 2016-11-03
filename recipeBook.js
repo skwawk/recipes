@@ -9,7 +9,7 @@ chocCake = {
 	"be thin. Pour evenly into the prepared pans.\n" + "\n" +
 	"3: Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. Cool in the pans " + 
 	"for 10 minutes, then remove to a wire rack to cool completely.",
-	full: chocCake.ingredients + chocCake.steps
+	full: this.ingredients + this.steps
 };
 chocFrost = {
 	name: "chocolate frosting",
