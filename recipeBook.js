@@ -17,7 +17,7 @@ chocFrost = {
 	steps: "1: In a medium bowl, sift together the confectioners' sugar and cocoa, and set aside.\n" + "\n" +
 	"2: In a large bowl, cream butter until smooth, then gradually beat in sugar mixture alternately with evaporated " +
 	"milk. Blend in vanilla. Beat until light and fluffy. If necessary, adjust consistency with more milk or sugar."
-}
+};
 
 var recipes = [chocCake, chocFrost];
 var bookLength = recipes.length;
