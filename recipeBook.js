@@ -11,7 +11,7 @@ chocCake = {
 	"for 10 minutes, then remove to a wire rack to cool completely."
 };
 
-var recipes = [ ];
+var recipes = [chocCake];
 var bookLength = recipes.length;
 
 function printRecipe(recipe) {
