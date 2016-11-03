@@ -33,12 +33,12 @@ function printRecipe(recipe) {
 };
 
 function updateChocCake() {
-	var recipeDiv = document.getElementById(chocCake);
+	var recipeDiv = document.getElementById("chocCake");
 	recipeDiv.innerHTML = "<h1>Chocolate Cake</h1><br />" + chocCake.full;
 };
 
 function updateChocFrost() {
-	var recipeDiv = document.getElementById(chocFrost);
+	var recipeDiv = document.getElementById("chocFrost");
 	recipeDiv.innerHTML = "<h1>Chocolate Frosting</h1><br />" + chocFrost.full;
 };
 
