@@ -32,9 +32,14 @@ function printRecipe(recipe) {
     console.log(recipe.steps);
 };
 
-function update(recipe) {
-	recipeDiv = document.getElementById(recipe);
-	recipeDiv.innerHTML = "<h1>" + recipe.name + "</h1><br />" + recipe.full;
+function updateChocCake() {
+	recipeDiv = document.getElementById(chocCake);
+	recipeDiv.innerHTML = "<h1>Chocolate Cake</h1><br />" + chocCake.full;
+};
+
+function updateChocFrost() {
+	recipeDiv = document.getElementById(chocFrost);
+	recipeDiv.innerHTML = "<h1>Chocolate Frosting</h1><br />" + chocFrost.full;
 };
 
 function list() {
