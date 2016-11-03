@@ -1,7 +1,7 @@
 chocCake = {
 	name: "chocolate cake",
-	ingredients: "2 cups white sugar\n1 3/4 cups all-purpose flour\n3/4 cup unsweetened cocoa powder\n1" +
-	"1/2 teaspoons baking powder\n1 1/2 teaspoons baking soda\n1 teaspoon salt\n2 eggs\n1 cup milk\n" +
+	ingredients: "2 cups white sugar\n1 3/4 cups all-purpose flour\n3/4 cup unsweetened cocoa powder\n" +
+	"1 1/2 teaspoons baking powder\n1 1/2 teaspoons baking soda\n1 teaspoon salt\n2 eggs\n1 cup milk\n" +
 	"1/2 cup vegetable oil\n2 teaspoons vanilla extract\n1 cup boiling water",
 	steps: "1: Preheat oven to 350 degrees F (175 degrees C). Grease and flour two nine inch round pans.\n" + "\n" +
 	"2: In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. Add the eggs, " +
@@ -34,12 +34,12 @@ function printRecipe(recipe) {
 
 function updateChocCake() {
 	var recipeDiv = document.getElementById("chocCake");
-	recipeDiv.innerHTML = "<h1>Chocolate Cake</h1><br />" + chocCake.full;
+	recipeDiv.innerHTML = "<h1>Chocolate Cake</h1><br />" + chocCake.ingredients + chocCake.steps;
 };
 
 function updateChocFrost() {
 	var recipeDiv = document.getElementById("chocFrost");
-	recipeDiv.innerHTML = "<h1>Chocolate Frosting</h1><br />" + chocFrost.full;
+	recipeDiv.innerHTML = "<h1>Chocolate Frosting</h1><br />" + chocFrost.ingredients + chocFrost.steps;
 };
 
 function list() {
