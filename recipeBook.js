@@ -8,7 +8,8 @@ chocCake = {
 	"milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. Stir in the boiling water last. Batter will " +
 	"be thin. Pour evenly into the prepared pans.\n" + "\n" +
 	"3: Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. Cool in the pans " + 
-	"for 10 minutes, then remove to a wire rack to cool completely."
+	"for 10 minutes, then remove to a wire rack to cool completely.",
+	full: chocCake.ingredients + chocCake.steps
 };
 chocFrost = {
 	name: "chocolate frosting",
@@ -16,7 +17,8 @@ chocFrost = {
  	"5 tablespoons evaporated milk\n1 teaspoon vanilla extract",
 	steps: "1: In a medium bowl, sift together the confectioners' sugar and cocoa, and set aside.\n" + "\n" +
 	"2: In a large bowl, cream butter until smooth, then gradually beat in sugar mixture alternately with evaporated " +
-	"milk. Blend in vanilla. Beat until light and fluffy. If necessary, adjust consistency with more milk or sugar."
+	"milk. Blend in vanilla. Beat until light and fluffy. If necessary, adjust consistency with more milk or sugar.",
+	full: chocFrost.ingredients + chocFrost.steps
 };
 
 var recipes = [chocCake, chocFrost];
@@ -29,6 +31,10 @@ function printRecipe(recipe) {
     console.log();
     console.log(recipe.steps);
 };
+
+function update(recipe) {
+	recipeDiv = getElementById(recipe);
+	recipeDiv.innerHTML = recipe.
 
 function list() {
 	for (var i = 0; i < bookLength; i++) {
