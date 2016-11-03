@@ -3,7 +3,7 @@ chocCake = {
 	ingredients: "2 cups white sugar\n1 3/4 cups all-purpose flour\n3/4 cup unsweetened cocoa powder\n1" +
 	"1/2 teaspoons baking powder\n1 1/2 teaspoons baking soda\n1 teaspoon salt\n2 eggs\n1 cup milk\n" +
 	"1/2 cup vegetable oil\n2 teaspoons vanilla extract\n1 cup boiling water",
-	steps: "1: Preheat oven to 350 degrees F (175 degrees C). Grease and flour two nine inch round pans./n" + "/n"
+	steps: "1: Preheat oven to 350 degrees F (175 degrees C). Grease and flour two nine inch round pans./n" + "/n" +
 	"2: In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. Add the eggs, " +
 	"milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. Stir in the boiling water last. Batter will " +
 	"be thin. Pour evenly into the prepared pans./n" + "/n"
