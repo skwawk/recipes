@@ -34,7 +34,7 @@ function printRecipe(recipe) {
 
 function update(recipe) {
 	recipeDiv = document.getElementById(recipe);
-	recipeDiv.innerHTML = "<h1>" + recipe.name + "<br />" + recipe.full;
+	recipeDiv.innerHTML = "<h1>" + recipe.name + "</h1><br />" + recipe.full;
 };
 
 function list() {
