@@ -1,4 +1,4 @@
-chocCake = {
+/*chocCake = {
 	name: "chocolate cake",
 	ingredients: "2 cups white sugar<br />1 3/4 cups all-purpose flour<br />3/4 cup unsweetened cocoa powder<br />" +
 	"1 1/2 teaspoons baking powder<br />1 1/2 teaspoons baking soda<br />1 teaspoon salt<br />2 eggs<br />1 cup milk" +
@@ -19,7 +19,7 @@ chocFrost = {
 	"milk. Blend in vanilla. Beat until light and fluffy. If necessary, adjust consistency with more milk or sugar.",
 	full: this.ingredients + this.steps
 };
-
+*/
 var recipes = [chocCake, chocFrost];
 var bookLength = recipes.length;
 
