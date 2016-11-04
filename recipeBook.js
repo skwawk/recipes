@@ -64,4 +64,14 @@ function add (name, ingredients, steps) {
         steps: steps
     };
 };
+
+function hideChocCake () {
+	var recipeDiv = document.getElementById("chocCake");
+	recipeDiv.innerHTML = "<br />"
+}
+
+function hideChocFrost () {
+	var recipeDiv = document.getElementById("chocFrost");
+	recipeDiv.innerHTML = "<br />"
+}
 list();
