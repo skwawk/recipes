@@ -33,7 +33,7 @@ function printRecipe(recipe) {
 
 function updateChocCake() {
 	var recipeDiv = document.getElementById("chocCake");
-	recipeDiv.innerHTML = "<h1>Chocolate Cake</h1><br />" + chocCake.ingredients + chocCake.steps + "<br />";
+	recipeDiv.innerHTML = "<h2>Chocolate Cake</h2>" + chocCake.ingredients + "<br />" + chocCake.steps + "<br />";
 };
 
 function updateChocFrost() {
