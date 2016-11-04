@@ -1,4 +1,4 @@
-# recipes
+# Recipes
 A recipe book for storing, adding, and searching recipes.
-# Current Status
+## Current Status
 Can display two different recipes when their buttons are clicked
