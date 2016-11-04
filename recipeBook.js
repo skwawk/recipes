@@ -19,16 +19,16 @@ function Recipe(id, name, ingredients, steps,) {
 		recipeDiv = function.getElementById(name);
 		recipeDiv.innerHTML = "";
 	};
-	var btn = document.createElement("button");
-	var btnText = document.createTextNode("This is new.");
-	button.appendChild(btnText);
-	document.body.appendChild(btn);
+	var btn = document.createElement("input");
+	document.body.appendChild(btn);	
+	btn.type = "button";
+	btn.name = id;
+	btn.id = id;
+	btn.value = this.name;
+	btn.onclick = this.update();
 	
 	var div = document.createElement("div");
-
-	var element = document.getElementById("div1");
-	element.appendChild(para);
-		
+	
 };
 
 chocCake = {
