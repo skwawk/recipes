@@ -38,7 +38,7 @@ function updateChocCake() {
 
 function updateChocFrost() {
 	var recipeDiv = document.getElementById("chocFrost");
-	recipeDiv.innerHTML = "<h1>Chocolate Frosting</h1>" + chocFrost.ingredients + "<br /><br />" + chocFrost.steps + 
+	recipeDiv.innerHTML = "<h2>Chocolate Frosting</h2>" + chocFrost.ingredients + "<br /><br />" + chocFrost.steps + 
 		"<br />";
 };
 
