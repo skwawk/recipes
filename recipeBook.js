@@ -27,14 +27,14 @@ function Recipe(id, name, ingredients, steps,) {
   	document.body.appendChild(btn);
 	var div = document.createElement("div");
   	div.id = this.id;
-  	document.body.appendChild(btn);
+  	document.body.appendChild(div);
 	
 };
 
 var recipes = [ ];
 
 function list() {
-	for (var i = 0; i < bookLength; i++) {
+	for (var i = 0; i < recipes.length; i++) {
 		printRecipe(recipes[i]);
 	};
 };
