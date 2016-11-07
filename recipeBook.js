@@ -22,7 +22,8 @@ chocFrost = {
 chocChip = {
 	name: "chocolate chip cookies",
 	ingredients: "2 cups all-purpose flour<br />1/2 teaspoon baking soda<br />1/2 teaspoon salt<br />" + 
-	"3/4 cup unsalted butter, melted<br />",
+	"3/4 cup unsalted butter, melted<br />1 cup packed brown sugar<br />1/2 cup white sugar<br />" + 
+	"1 tablespoon vanilla extract<br />1 egg<br />1 egg yolk<br />2 cups semisweet chocolate chips",
 	steps: "1: Preheat the oven to 325 degrees F (165 degrees C). Grease cookie sheets or line with parchment paper.<br /><br />" +
 	"2: Sift together the flour, baking soda and salt; set aside.<br /><br />" +
 	"3: In a medium bowl, cream together the melted butter, brown sugar and white sugar until well blended. Beat in the vanilla," + 
